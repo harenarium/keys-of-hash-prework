@@ -5,7 +5,7 @@ class Hash
     arguments.each{|arg|
       self.each{|k,v|
         if v==arg
-          array <<{k=>v}
+          array << k
         end
       }
     }
