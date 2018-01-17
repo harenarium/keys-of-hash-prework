@@ -1,7 +1,6 @@
 require "pry"
 class Hash
   def keys_of(*arguments)
-    binding.pry
     array = []
     arguments.each{|arg|
       self.each{|k,v|
