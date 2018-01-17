@@ -9,6 +9,7 @@ class Hash
         end
       }
     }
+    binding.pry
     array
   end
 end
